@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  width: 700px;
+  height: 700px;
+  border: 2px solid black;
+  overflow: hidden;
+  position: relative;
+  float: right;
+  text-align: right;
+  background-color: white;
+  margin-right: 10px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.container p,
+h1 {
+  margin-bottom: 20px;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
